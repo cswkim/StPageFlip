@@ -36,8 +36,8 @@ export class FlipCalculation {
         pageWidth: string,
         pageHeight: string
     ) {
-        this.pageWidth = parseInt(pageWidth, 10);
-        this.pageHeight = parseInt(pageHeight, 10);
+        this.pageWidth = parseFloat(pageWidth);
+        this.pageHeight = parseFloat(pageHeight);
     }
 
     /**
